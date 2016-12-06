@@ -96,6 +96,8 @@ and your most recent backup was of node A:
 
 You should now have your UCP cluster up and running.
 
+## Recovering without a backup during loss of Quorum
+
 Additionally, in the event where half or more controller nodes are lost and
 cannot be recovered to a healthy state, the system can only be restored through
 the following disaster recovery procedure. It is important to note that this
